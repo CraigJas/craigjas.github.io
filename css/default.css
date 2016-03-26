@@ -48,6 +48,12 @@ a {
 	color: #D82053;
 }
 
-@media screen and (max-width: 568px) { 
+img {
+	height: 55px;
+}
 
+@media screen and (max-width: 568px) { 
+/*	html {
+		font-size: 200%;
+	}	*/
 }
