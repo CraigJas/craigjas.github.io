@@ -1,3 +1,18 @@
+@media screen and (max-width: 568px) { 
+	html body {
+		background-color: #FCD2D2;
+	}
+	body section.card {
+		width: 100%;
+		height: 100%;
+	    border: none;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    padding: 0;
+	}
+}
+
 body {
 	font-family: Verdana,sans-serif;
     line-height: 1.5;		
@@ -61,7 +76,7 @@ a {
 }
 
 img {
-	height: 55px;
+	height: 50px;
 }
 
 img.top-left {
@@ -86,10 +101,4 @@ img.bottom-right {
     position: absolute;
     bottom: 5px;
     right: 5px;	
-}
-
-@media screen and (max-width: 568px) { 
-/*	html {
-		font-size: 200%;
-	}	*/
 }
