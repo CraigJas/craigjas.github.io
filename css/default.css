@@ -1,9 +1,13 @@
 @media screen and (max-width: 568px) { 
 	html body {
-	 /*   background-color: #FCD2D2; */
+	    background-color: #FCD2D2; 
+	}
+	body section.container {
+		border: solid 15px #D82053;
+		width: 93%;
 	}
 	body section.card {
-	    width: 95%;
+	    width: 90%;
 	    border: none;
 	    -webkit-box-shadow: none;
 	    -moz-box-shadow: none;
