@@ -5,6 +5,8 @@
 	body section.container {
 		border: solid 15px #D82053;
 		width: 93%;
+		height: 96%;
+		overflow: hidden;
 	}
 	body section.card {
 	    width: 90%;
