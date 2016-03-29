@@ -1,12 +1,13 @@
 @media screen and (max-width: 568px) { 
 	html body {
-	    background-color: #FCD2D2; 
-	    font-size: 80%;
+	    background-color: #D82053; 
+	    font-size: 75%;
 	}
 	body section.container {
 		border: solid 15px #D82053;
-		width: 93%;
-		height: 96%;
+		background-color: #FCD2D2; 
+		width: 90%;
+		height: 95%;
 		overflow: hidden;
 	}
 	body section.card {
@@ -22,7 +23,6 @@
 body {
 	font-family: Verdana,sans-serif;
     line-height: 1.5;		
-    /*background-color: #4F0310;*/
     background-color: #D82053;
     padding: 0;
     margin: 0;	
