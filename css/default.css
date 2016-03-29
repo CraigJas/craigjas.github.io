@@ -3,12 +3,18 @@
 	    background-color: #D82053; 
 	    font-size: 75%;
 	}
-	body section.container {
+/*	body section.container {
 		border: solid 15px #D82053;
 		background-color: #FCD2D2; 
 		width: 90%;
 		height: 95%;
-		overflow: hidden;
+		overflow-x: hidden;
+	}*/
+	body section.card-container {
+		height: 90%;
+		width: 85%;
+		margin: auto;
+		background-color: #FCD2D2;
 	}
 	body section.card {
 	    width: 90%;
@@ -20,6 +26,18 @@
 	}
 }
 
+@media screen and (max-width: 375px) { 
+	html body {
+	    font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 320px) { 
+	html body {
+	    font-size: 60%;
+	}
+}
+
 body {
 	font-family: Verdana,sans-serif;
     line-height: 1.5;		
@@ -27,10 +45,11 @@ body {
     padding: 0;
     margin: 0;	
 }
-section.container {
+
+section.container, section.card-container {
 	position: absolute;
 	height: 100%;
-	width: 100%
+	width: 100%	
 }
 
 section.center {
@@ -51,9 +70,13 @@ section.card {
     box-shadow: 2px 2px 3px 0 rgba(227,227,227,1);    
 }
 
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
 h1, h2 {
-	margin-top: 15px;
-	margin-bottom: 15px
+	padding-top: 15px;
+	padding-bottom: 15px
 }
 
 h1 {
@@ -65,8 +88,8 @@ h2 {
 }
 
 h3, h5 {
-	margin-top: 10px;
-	margin-bottom: 10px
+	padding-top: 10px;
+	padding-bottom: 10px
 }
 
 h3 {
